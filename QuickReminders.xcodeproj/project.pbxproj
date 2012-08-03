@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17E54CBF15CBE05A007384D2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E54CBE15CBE05A007384D2 /* Cocoa.framework */; };
+		17E54CC915CBE05A007384D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17E54CC715CBE05A007384D2 /* InfoPlist.strings */; };
+		17E54CCB15CBE05A007384D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E54CCA15CBE05A007384D2 /* main.m */; };
+		17E54CCF15CBE05A007384D2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 17E54CCD15CBE05A007384D2 /* Credits.rtf */; };
+		17E54CD215CBE05A007384D2 /* MDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E54CD115CBE05A007384D2 /* MDAppDelegate.m */; };
+		17E54CD515CBE05A007384D2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17E54CD315CBE05A007384D2 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17E54CBA15CBE05A007384D2 /* QuickReminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickReminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E54CBE15CBE05A007384D2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		17E54CC115CBE05A007384D2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		17E54CC215CBE05A007384D2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		17E54CC315CBE05A007384D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17E54CC615CBE05A007384D2 /* QuickReminders-Info.plist */ = {isa = PBXFileReference; path = "QuickReminders-Info.plist"; sourceTree = "<group>"; };
+		17E54CC815CBE05A007384D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17E54CCA15CBE05A007384D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17E54CCC15CBE05A007384D2 /* QuickReminders-Prefix.pch */ = {isa = PBXFileReference; path = "QuickReminders-Prefix.pch"; sourceTree = "<group>"; };
+		17E54CCE15CBE05A007384D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		17E54CD015CBE05A007384D2 /* MDAppDelegate.h */ = {isa = PBXFileReference; path = MDAppDelegate.h; sourceTree = "<group>"; };
+		17E54CD115CBE05A007384D2 /* MDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppDelegate.m; sourceTree = "<group>"; };
+		17E54CD415CBE05A007384D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17E54CB715CBE05A007384D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E54CBF15CBE05A007384D2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E54CAF15CBE059007384D2 = {
+			isa = PBXGroup;
+			children = (
+				17E54CC415CBE05A007384D2 /* QuickReminders */,
+				17E54CBD15CBE05A007384D2 /* Frameworks */,
+				17E54CBB15CBE05A007384D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17E54CBB15CBE05A007384D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E54CBA15CBE05A007384D2 /* QuickReminders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17E54CBD15CBE05A007384D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17E54CBE15CBE05A007384D2 /* Cocoa.framework */,
+				17E54CC015CBE05A007384D2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17E54CC015CBE05A007384D2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17E54CC115CBE05A007384D2 /* AppKit.framework */,
+				17E54CC215CBE05A007384D2 /* CoreData.framework */,
+				17E54CC315CBE05A007384D2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		17E54CC415CBE05A007384D2 /* QuickReminders */ = {
+			isa = PBXGroup;
+			children = (
+				17E54CD015CBE05A007384D2 /* MDAppDelegate.h */,
+				17E54CD115CBE05A007384D2 /* MDAppDelegate.m */,
+				17E54CD315CBE05A007384D2 /* MainMenu.xib */,
+				17E54CC515CBE05A007384D2 /* Supporting Files */,
+			);
+			path = QuickReminders;
+			sourceTree = "<group>";
+		};
+		17E54CC515CBE05A007384D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17E54CC615CBE05A007384D2 /* QuickReminders-Info.plist */,
+				17E54CC715CBE05A007384D2 /* InfoPlist.strings */,
+				17E54CCA15CBE05A007384D2 /* main.m */,
+				17E54CCC15CBE05A007384D2 /* QuickReminders-Prefix.pch */,
+				17E54CCD15CBE05A007384D2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17E54CB915CBE05A007384D2 /* QuickReminders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E54CD815CBE05A007384D2 /* Build configuration list for PBXNativeTarget "QuickReminders" */;
+			buildPhases = (
+				17E54CB615CBE05A007384D2 /* Sources */,
+				17E54CB715CBE05A007384D2 /* Frameworks */,
+				17E54CB815CBE05A007384D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickReminders;
+			productName = QuickReminders;
+			productReference = 17E54CBA15CBE05A007384D2 /* QuickReminders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17E54CB115CBE059007384D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MD;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Mert Dumenci";
+			};
+			buildConfigurationList = 17E54CB415CBE059007384D2 /* Build configuration list for PBXProject "QuickReminders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17E54CAF15CBE059007384D2;
+			productRefGroup = 17E54CBB15CBE05A007384D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17E54CB915CBE05A007384D2 /* QuickReminders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17E54CB815CBE05A007384D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E54CC915CBE05A007384D2 /* InfoPlist.strings in Resources */,
+				17E54CCF15CBE05A007384D2 /* Credits.rtf in Resources */,
+				17E54CD515CBE05A007384D2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17E54CB615CBE05A007384D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E54CCB15CBE05A007384D2 /* main.m in Sources */,
+				17E54CD215CBE05A007384D2 /* MDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17E54CC715CBE05A007384D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E54CC815CBE05A007384D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17E54CCD15CBE05A007384D2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E54CCE15CBE05A007384D2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		17E54CD315CBE05A007384D2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E54CD415CBE05A007384D2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17E54CD615CBE05A007384D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		17E54CD715CBE05A007384D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		17E54CD915CBE05A007384D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickReminders/QuickReminders-Prefix.pch";
+				INFOPLIST_FILE = "QuickReminders/QuickReminders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17E54CDA15CBE05A007384D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickReminders/QuickReminders-Prefix.pch";
+				INFOPLIST_FILE = "QuickReminders/QuickReminders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E54CB415CBE059007384D2 /* Build configuration list for PBXProject "QuickReminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E54CD615CBE05A007384D2 /* Debug */,
+				17E54CD715CBE05A007384D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E54CD815CBE05A007384D2 /* Build configuration list for PBXNativeTarget "QuickReminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E54CD915CBE05A007384D2 /* Debug */,
+				17E54CDA15CBE05A007384D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17E54CB115CBE059007384D2 /* Project object */;
+}
