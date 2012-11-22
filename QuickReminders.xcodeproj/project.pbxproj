@@ -7,28 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		176BB23D15CBEEA0003DEB4E /* 117-todo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176BB23B15CBEEA0003DEB4E /* 117-todo@2x.png */; };
+		176BB23E15CBEEA0003DEB4E /* 117-todo.png in Resources */ = {isa = PBXBuildFile; fileRef = 176BB23C15CBEEA0003DEB4E /* 117-todo.png */; };
 		17E54CBF15CBE05A007384D2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E54CBE15CBE05A007384D2 /* Cocoa.framework */; };
 		17E54CC915CBE05A007384D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17E54CC715CBE05A007384D2 /* InfoPlist.strings */; };
 		17E54CCB15CBE05A007384D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E54CCA15CBE05A007384D2 /* main.m */; };
 		17E54CCF15CBE05A007384D2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 17E54CCD15CBE05A007384D2 /* Credits.rtf */; };
 		17E54CD215CBE05A007384D2 /* MDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E54CD115CBE05A007384D2 /* MDAppDelegate.m */; };
 		17E54CD515CBE05A007384D2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17E54CD315CBE05A007384D2 /* MainMenu.xib */; };
+		17E54CE115CBE264007384D2 /* MDMenuBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E54CE015CBE264007384D2 /* MDMenuBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		176BB23B15CBEEA0003DEB4E /* 117-todo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "117-todo@2x.png"; sourceTree = "<group>"; };
+		176BB23C15CBEEA0003DEB4E /* 117-todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "117-todo.png"; sourceTree = "<group>"; };
 		17E54CBA15CBE05A007384D2 /* QuickReminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickReminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E54CBE15CBE05A007384D2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		17E54CC115CBE05A007384D2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		17E54CC215CBE05A007384D2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		17E54CC315CBE05A007384D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		17E54CC615CBE05A007384D2 /* QuickReminders-Info.plist */ = {isa = PBXFileReference; path = "QuickReminders-Info.plist"; sourceTree = "<group>"; };
+		17E54CC615CBE05A007384D2 /* QuickReminders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickReminders-Info.plist"; sourceTree = "<group>"; };
 		17E54CC815CBE05A007384D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17E54CCA15CBE05A007384D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		17E54CCC15CBE05A007384D2 /* QuickReminders-Prefix.pch */ = {isa = PBXFileReference; path = "QuickReminders-Prefix.pch"; sourceTree = "<group>"; };
+		17E54CCC15CBE05A007384D2 /* QuickReminders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickReminders-Prefix.pch"; sourceTree = "<group>"; };
 		17E54CCE15CBE05A007384D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		17E54CD015CBE05A007384D2 /* MDAppDelegate.h */ = {isa = PBXFileReference; path = MDAppDelegate.h; sourceTree = "<group>"; };
+		17E54CD015CBE05A007384D2 /* MDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAppDelegate.h; sourceTree = "<group>"; };
 		17E54CD115CBE05A007384D2 /* MDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppDelegate.m; sourceTree = "<group>"; };
 		17E54CD415CBE05A007384D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		17E54CDF15CBE264007384D2 /* MDMenuBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMenuBarController.h; sourceTree = "<group>"; };
+		17E54CE015CBE264007384D2 /* MDMenuBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMenuBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +89,12 @@
 		17E54CC415CBE05A007384D2 /* QuickReminders */ = {
 			isa = PBXGroup;
 			children = (
+				176BB23B15CBEEA0003DEB4E /* 117-todo@2x.png */,
+				176BB23C15CBEEA0003DEB4E /* 117-todo.png */,
 				17E54CD015CBE05A007384D2 /* MDAppDelegate.h */,
 				17E54CD115CBE05A007384D2 /* MDAppDelegate.m */,
+				17E54CDF15CBE264007384D2 /* MDMenuBarController.h */,
+				17E54CE015CBE264007384D2 /* MDMenuBarController.m */,
 				17E54CD315CBE05A007384D2 /* MainMenu.xib */,
 				17E54CC515CBE05A007384D2 /* Supporting Files */,
 			);
@@ -157,6 +168,8 @@
 				17E54CC915CBE05A007384D2 /* InfoPlist.strings in Resources */,
 				17E54CCF15CBE05A007384D2 /* Credits.rtf in Resources */,
 				17E54CD515CBE05A007384D2 /* MainMenu.xib in Resources */,
+				176BB23D15CBEEA0003DEB4E /* 117-todo@2x.png in Resources */,
+				176BB23E15CBEEA0003DEB4E /* 117-todo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +182,7 @@
 			files = (
 				17E54CCB15CBE05A007384D2 /* main.m in Sources */,
 				17E54CD215CBE05A007384D2 /* MDAppDelegate.m in Sources */,
+				17E54CE115CBE264007384D2 /* MDMenuBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +308,7 @@
 				17E54CDA15CBE05A007384D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

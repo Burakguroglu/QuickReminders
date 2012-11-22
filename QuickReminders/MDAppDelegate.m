@@ -9,10 +9,18 @@
 #import "MDAppDelegate.h"
 
 @implementation MDAppDelegate
+@synthesize menubarController;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    self.menubarController = [[MDMenuBarController alloc] init];
+}
+
+- (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender
+{
+    // Explicitly remove the icon from the menu bar
+    self.menubarController = nil;
+    return NSTerminateNow;
 }
 
 @end
